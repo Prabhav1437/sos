@@ -4,7 +4,7 @@
     <p><strong>Name:</strong> {{ profile.personal.name }}</p>
     <p><strong>Age:</strong> {{ profile.personal.age }}</p>
     <p><strong>Phone:</strong> {{ profile.personal.phone }}</p>
-    <p><strong>Address:</strong> {{ profile.personal.address }}</p>
+    <p><strong>Address:</strong> {{ profile.personal.address }}</p> 
 
     <hr />
 
