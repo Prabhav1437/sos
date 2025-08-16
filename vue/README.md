@@ -1,6 +1,6 @@
 # SOS Emergency Information System
 
-A Vue.js application for managing and accessing emergency information, including personal details, medical history, and insurance data.
+A Vue.js application for managing and accessing emergency information, including personal details, medical history, and insurance data.     
 
 ## Features
 

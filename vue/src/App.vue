@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <header>
       <h1>SOS Emergency Information System</h1>
-      <nav>
+      <nav> 
         <router-link to="/personal">Personal Info</router-link>
         <router-link to="/medical">Medical History</router-link>
         <router-link to="/insurance">Insurance</router-link>
