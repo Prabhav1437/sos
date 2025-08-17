@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import { useProfileStore } from '../stores/profile'
+import { useProfileStore } from './stores/profile'
 import { reactive } from 'vue'
 
-export default{
+export default {
   setup() {
     const store = useProfileStore()
     const form = reactive({ ...store.insurance })
@@ -27,4 +27,3 @@ export default{
   }
 }
 </script>
- 

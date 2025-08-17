@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PersonalInfoForm from '../components/PersonalInfoForm.vue'
-import MedicalHistoryForm from '../components/MedicalHistoryForm.vue'
-import InsuranceForm from '../components/InsuranceForm.vue'
-import Dashboard from '../components/EmergencyDashboard.vue' 
+import PersonalInfoForm from '../PersonalInfoForm.vue'
+import MedicalHistoryForm from '../MedicalHistoryForm.vue'
+import InsuranceForm from '../InsuranceForm.vue'
+import Dashboard from '../EmergencyDashboard.vue' 
 
 const routes = [
   { path: '/', redirect: '/personal' },

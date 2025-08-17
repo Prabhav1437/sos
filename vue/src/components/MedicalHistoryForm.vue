@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { useProfileStore } from '../stores/profile' 
+import { useProfileStore } from './stores/profile' 
 import { reactive } from 'vue'
 
 export default {

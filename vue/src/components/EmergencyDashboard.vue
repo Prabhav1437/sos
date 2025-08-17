@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { useProfileStore } from '../stores/profile'
+import { useProfileStore } from './stores/profile'
 
 export default {
   setup() {
