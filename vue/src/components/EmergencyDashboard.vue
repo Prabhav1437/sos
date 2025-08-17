@@ -5,7 +5,7 @@
     <p><strong>Age:</strong> {{ profile.personal.age }}</p>
     <p><strong>Phone:</strong> {{ profile.personal.phone }}</p>
     <p><strong>Address:</strong> {{ profile.personal.address }}</p> 
-
+<!-- h -->
     <hr />
 
     <p><strong>Conditions:</strong> {{ profile.medical.conditions }}</p>
