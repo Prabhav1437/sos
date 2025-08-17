@@ -1,20 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import PersonalInfoForm from '../PersonalInfoForm.vue'
-import MedicalHistoryForm from '../MedicalHistoryForm.vue'
-import InsuranceForm from '../InsuranceForm.vue'
-import Dashboard from '../EmergencyDashboard.vue' 
+import { createApp } from 'vue';
+import App from '/workspaces/sos/src/App.vue';
+import { createRouter, createWebHistory } from 'vue-router';
+import LandingPage from '/workspaces/sos/src/components/LandingPage.vue';
+import Personal from '/workspaces/sos/src/components/PersonalInfoForm.vue';
+import Medical from '/workspaces/sos/src/components/MedicalHistoryForm.vue';
+import Insurance from '/workspaces/sos/src/components/InsuranceForm.vue';
+import Dashboard from '/workspaces/sos/src/components/EmergencyDashboard.vue';
 
 const routes = [
-  { path: '/', redirect: '/personal' },
-  { path: '/personal', component: PersonalInfoForm },
-  { path: '/medical', component: MedicalHistoryForm },
-  { path: '/insurance', component: InsuranceForm },
-  { path: '/dashboard', component: Dashboard }
-]
+  { path: '/', component: LandingPage },
+  { path: '/personal', component: Personal },
+  { path: '/medical', component: Medical },
+  { path: '/insurance', component: Insurance },
+  { path: '/dashboard', component: Dashboard },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+createApp(App).use(router).mount('#app');
