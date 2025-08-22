@@ -7,7 +7,7 @@ A modern web application that helps individuals store **critical emergency data*
 ---
 
 ## 🚀 Features
-
+                                           
 - 🛬 **Landing Page**: Learn about the project and start easily.
 - 📝 **Sign-Up Form**: Fill in essential personal, emergency contact, and medical details.
 - 👤 **Account Page**: Edit and update your stored information anytime.
