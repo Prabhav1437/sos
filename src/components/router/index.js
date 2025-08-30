@@ -2,14 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import PersonalInfoForm from '../PersonalInfoForm.vue'
 import MedicalHistoryForm from '../MedicalHistoryForm.vue'
 import InsuranceForm from '../InsuranceForm.vue'
-import Dashboard from '../EmergencyDashboard.vue' 
+import EmergencyDashboard from '../EmergencyDashboard.vue'
 
 const routes = [
-  { path: '/', redirect: '/personal' },
-  { path: '/personal', component: PersonalInfoForm },
+  { path: '/', component: PersonalInfoForm },
   { path: '/medical', component: MedicalHistoryForm },
   { path: '/insurance', component: InsuranceForm },
-  { path: '/dashboard', component: Dashboard }
+  { path: '/dashboard', component: EmergencyDashboard }
 ]
 
 const router = createRouter({
